@@ -7,6 +7,15 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class C01_BookStorePathMethod {
+    /*
+    TASK
+    Given accept type json
+    When user sends a get request to https://bookstore.toolsqa.com/BookStore/v1/Books
+    Then status code should be 200
+    And content type should be application/json; charset=utf-8
+    And the first book isbn should be 9781449325862
+    And the first book publisher should be O'Reilly Media
+     */
 
     @Test
     public void bookStoreGetTest(){
